@@ -1,17 +1,13 @@
     {
-        "name": "novaris",
-        "description": "Novaris is a starter theme for the Novaris Content Management System, providing a clean and flexible foundation for building custom themes and content-driven websites.",
-        "version": "0.0.1",
-        "author": "Benjamin Lu",
-        "license": "GPL-2.0-or-later",
-        "homepage": "https://github.com/novaris-dev/novaris",
-        "main": "resources/js/app.js",
+        "name": "nocturne",
+        "description": "Nocturne is a theme for the Novaris Content Management System.",
+        "homepage": "https://github.com/novaris-dev/nocturne",
         "repository": {
             "type": "git",
-            "url": "git+https://github.com/novaris-dev/novaris.git"
+            "url": "git+https://github.com/novaris-dev/nocturne.git"
         },
         "bugs": {
-            "url": "https://github.com/novaris-dev/novaris/issues"
+            "url": "https://github.com/novaris-dev/nocturne/issues"
         },
         "devDependencies": {
             "concurrently": "^10.0.5",

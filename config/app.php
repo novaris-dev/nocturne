@@ -19,7 +19,7 @@
 return [
 
 	// Title
-	'title' => 'Novaris',
+	'title' => 'Nocturne',
 
 	// Description
 	'tagline' => 'A Novaris Theme',
