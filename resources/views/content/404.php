@@ -1,5 +1,5 @@
-<section id="content" class="site-content">
-	<main id="main" class="content-area">
+<div id="content" class="app-content container">
+	<main id="main" class="app-main">
 		<article id="" class="<?= e( post_class() ) ?>">
 		<header class="entry-header">
 			<h1 class="entry-title"><?= e( $error->title() ); ?></h1>
@@ -9,4 +9,4 @@
 		</div>
 		</article>
 	</main>
-</section>
+</div>

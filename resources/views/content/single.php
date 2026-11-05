@@ -1,5 +1,5 @@
-<section id="content" class="site-content">
-	<main id="main" class="content-area">
+<div id="content" class="app-content container">
+	<main id="main" class="app-main">
 		<article class="<?= e( post_class() ) ?>">
 			<header class="entry__header">
 				<div class="entry__metadata">
@@ -34,4 +34,4 @@
 			</footer>
 		</article>
 	</main>
-</section>
+</div>

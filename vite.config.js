@@ -3,6 +3,11 @@ import path from 'path';
 
 export default defineConfig({
   publicDir: false,
+  css: {
+    preprocessorOptions: {
+      scss: { loadPaths: [ 'vendor' ] },
+    },
+  },
   build: {
     outDir: 'public/assets',   // Vite only manages this folder
     assetsDir: '',             // no extra nesting
