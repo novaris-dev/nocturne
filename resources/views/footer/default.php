@@ -1,6 +1,6 @@
 	<footer id="colophon" class="app__footer">
 		<div class="app__footer-info">	
-			Powered By <a href="https://github.com/novaris-dev">Novaris</a> and <a href="https://github.com/novaris-dev/novaris"><?= e( 'Novaris' ); ?></a>
+			Powered By <a href="https://github.com/novaris-dev">Novaris</a> and <a href="https://github.com/novaris-dev/nocturne"><?= e( 'Nocturne' ); ?></a>
 		</div>
 	</footer>
 </div>

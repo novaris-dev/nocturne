@@ -3,7 +3,7 @@ public
 vendor
 
 # Theme export (npm run build)
-novaris/
+nocturne/
 
 .env
 .env.local
