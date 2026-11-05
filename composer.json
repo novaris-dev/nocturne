@@ -14,8 +14,15 @@
     },
     "require": {
         "php": ">=8.2",
+        "luthemes/ui": "dev-main",
         "novaris-dev/framework": "^1.0"
     },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/luthemes/ui"
+        }
+    ],
     "scripts": {
         "novaris": "php vendor/novaris-dev/framework/src/bin/novaris"
     },

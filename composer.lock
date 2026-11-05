@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "7a87b5b98cfd7bda385437779f24fe6b",
+    "content-hash": "a002a20a92bf9813ab58fc2386f1cc69",
     "packages": [
         {
             "name": "dflydev/dot-access-data",
@@ -806,6 +806,60 @@
                 }
             ],
             "time": "2022-12-11T20:36:23+00:00"
+        },
+        {
+            "name": "luthemes/ui",
+            "version": "dev-main",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/luthemes/ui.git",
+                "reference": "52880c249060258e469bc30937b4f90c44effb2f"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/luthemes/ui/zipball/52880c249060258e469bc30937b4f90c44effb2f",
+                "reference": "52880c249060258e469bc30937b4f90c44effb2f",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=7.4"
+            },
+            "suggest": {
+                "backdrop-dev/framework": "Use Luthemes\\UI\\Providers\\Backdrop in ClassicPress themes.",
+                "novaris-dev/framework": "Use Luthemes\\UI\\Providers\\Novaris in Novaris sites."
+            },
+            "default-branch": true,
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Luthemes\\UI\\": "src/"
+                }
+            },
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "Benjamin Lu",
+                    "email": "benlumia007@gmail.com",
+                    "homepage": "https://luthemes.com"
+                }
+            ],
+            "description": "Shared styles and UI building blocks for Luthemes projects: SCSS tokens, layout objects, and components, with service providers for Backdrop (ClassicPress) and Novaris.",
+            "homepage": "https://github.com/luthemes/ui",
+            "keywords": [
+                "backdrop",
+                "classicpress",
+                "css",
+                "novaris",
+                "scss",
+                "ui"
+            ],
+            "support": {
+                "issues": "https://github.com/luthemes/ui/issues",
+                "source": "https://github.com/luthemes/ui/tree/main"
+            },
+            "time": "2026-11-03T03:32:53+00:00"
         },
         {
             "name": "nette/schema",
@@ -2094,7 +2148,9 @@
     "packages-dev": [],
     "aliases": [],
     "minimum-stability": "dev",
-    "stability-flags": {},
+    "stability-flags": {
+        "luthemes/ui": 20
+    },
     "prefer-stable": true,
     "prefer-lowest": false,
     "platform": {

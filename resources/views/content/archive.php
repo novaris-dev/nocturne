@@ -1,5 +1,5 @@
-<section id="content" class="site-content">
-	<main id="main" class="content-area">
+<div id="content" class="app-content container">
+	<main id="main" class="app-main">
 		<header class="archive-header">
 			<h1 class="archive-title"><?= e( $archive->title() ); ?></h1>
 		</header>
@@ -8,4 +8,4 @@
 		</section>
 		<?= $engine->each( 'entry.archive', $entries, 'entry' ) ?>
 	</main>
-</section>
+</div>

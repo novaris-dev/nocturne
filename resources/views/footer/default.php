@@ -1,9 +1,9 @@
-	<footer id="colophon" class="app__footer">
-		<div class="app__footer-info">	
-			Powered By <a href="https://github.com/novaris-dev">Novaris</a> and <a href="https://github.com/novaris-dev/nocturne"><?= e( 'Nocturne' ); ?></a>
+	<footer id="colophon" class="app-footer">
+		<div class="app-footer__inner container">
+			<p class="app-footer__credit">Powered By <a href="https://github.com/novaris-dev">Novaris</a> and <a href="https://github.com/novaris-dev/nocturne"><?= e( 'Nocturne' ); ?></a></p>
 		</div>
 	</footer>
 </div>
-<script src="<?= e( asset( 'resources/js/app.js' ) ) ?>"></script>
+<script type="module" src="<?= e( asset( 'resources/js/app.js' ) ) ?>"></script>
 </body>
 </html>
