@@ -48,7 +48,9 @@ return [
     ],
 
 	// Register service providers.
-	'providers' => [],
+	'providers' => [
+		Techkodeninja\Chassis\Providers\Novaris::class,
+	],
 
 	// Register static proxies classes.
 	'proxies' => [],

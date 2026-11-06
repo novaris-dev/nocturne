@@ -5,7 +5,7 @@
         "author": "Benjamin Lu",
         "license": "GPL-2.0-or-later",
         "homepage": "https://github.com/novaris-dev/nocturne",
-        "main": "resources/js/app.js",
+        "main": "resources/scss/screen.scss",
         "repository": {
             "type": "git",
             "url": "git+https://github.com/novaris-dev/nocturne.git"

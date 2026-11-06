@@ -15,7 +15,6 @@ export default defineConfig({
     emptyOutDir: true,         // cleans old CSS/JS on each build
     rollupOptions: {
       input: {
-        app: path.resolve(__dirname, 'resources/js/app.js'),
         screen: path.resolve(__dirname, 'resources/scss/screen.scss'),
       },
       output: {
