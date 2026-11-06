@@ -5,7 +5,6 @@
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <link rel="profile" href="https://gmpg.org/xfn/11" />
 <?= app( 'chassis' ) ? app( 'chassis' )->styles() : '' ?>
-<link rel="stylesheet" href="<?= e( asset( 'resources/scss/screen.scss' ) ) ?>" />
 <?= $doctitle->render(); ?>
 <?= Novaris\Font\fonts(); ?>
 </head>

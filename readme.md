@@ -5,7 +5,7 @@ Nocturne is a dark theme for the [Novaris](https://github.com/novaris-dev/novari
 ## Requirements
 
 - PHP 8.2 or later
-- Node.js, to build the theme
+- Node.js, to export the theme
 - Chassis, installed on the site and registered in `config/app.php`:
 
 ```php
@@ -24,11 +24,11 @@ npm install
 npm run dev
 ```
 
-`npm run dev` rebuilds the theme when files change. Use `npm run build` for a production build and to export the theme to `nocturne/`.
+`npm run dev` exports the theme again when files change. Use `npm run build` to export the theme to `nocturne/`.
 
 ## Changing the design
 
-Colors, fonts, and widths are in `resources/scss/01.settings/_index.scss`. See `resources/scss/README.md` for where everything else lives.
+Colors, fonts, spacing, and widths are in `chassis.json`. There's no Sass to build: Chassis reads the file and prints the values after its stylesheet. See [Set the design with `chassis.json`](https://github.com/techkodeninja/chassis#set-the-design-with-chassisjson) for every setting.
 
 ## License
 
