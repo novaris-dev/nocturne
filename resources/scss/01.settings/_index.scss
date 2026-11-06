@@ -43,6 +43,12 @@
 	--font-family-heading: 'Fira Sans', sans-serif;
 	--font-family-code:    'JetBrains Mono', monospace;
 
+	// Spacing
+	--header-padding:   var( --space-s );
+	--nav-link-padding: var( --space-xs ) var( --space-m );
+	--content-padding:  var( --space-l );
+	--sidebar-gap:      var( --space-l );
+
 	// Widths
 	--width-wide:    75rem;
 	--width-sidebar: 20rem;

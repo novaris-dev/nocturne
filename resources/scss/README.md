@@ -1,12 +1,10 @@
 # Nocturne SCSS
 
-Nocturne's base styles come from [Chassis](https://github.com/techkodeninja/chassis), which loads from its service provider in `config/app.php`: settings, reset, elements, layout objects, the page skeleton, components, and utilities.
+Nocturne's layout and components come from [Chassis](https://github.com/techkodeninja/chassis), which loads from its service provider in `config/app.php`. Nocturne only sets its design.
 
 | File | Holds |
 |---|---|
 | `screen.scss` | Only `@forward` lines, listing everything in order |
-| `01.settings` | Nocturne's colors, fonts, and widths, as custom properties |
-| `06.layouts` | Changes to the Chassis page skeleton, such as header and content spacing |
-| `07.components` | Styles that belong only to Nocturne, such as the phone menu and post box |
+| `01.settings` | Nocturne's colors, fonts, spacing, and widths, as custom properties |
 
-Composer has to install the package before the build, because `07.components/01.navigation` reads Chassis's Sass tools from `vendor/techkodeninja/chassis/scss`.
+If a style belongs only to Nocturne, add it in a new numbered folder and a `@forward` line in `screen.scss`.
