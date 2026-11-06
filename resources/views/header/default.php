@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -10,7 +10,6 @@
 <?= Novaris\Font\fonts(); ?>
 </head>
 <body class="<?= e( body_class() ) ?>">
-<?= $engine->doctype() ?>	
 <a class="skip-link screen-reader-text" href="#main">Skip to content</a>
 <div id="container" class="app">
 	<header id="masthead" class="app-header">

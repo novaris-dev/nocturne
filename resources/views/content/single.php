@@ -12,7 +12,7 @@
 			</header>
 			<?php if ( $thumbnail = $single->thumbnail( 'novaris-landscape-extra-large' ) ) : ?>
 				<picture class="entry__thumbnail">
-					<img class="entry__thumbnail" src="<?= e( $thumbnail->url() ); ?>" width="<?= $thumbnail->width(); ?>" height="<?= $thumbnail->height(); ?>" alt="">
+					<img src="<?= e( $thumbnail->url() ); ?>" width="<?= $thumbnail->width(); ?>" height="<?= $thumbnail->height(); ?>" alt="<?= e( $single->title() ); ?>">
 				</picture>
 			<?php endif ?>
 			<div class="entry__content">
@@ -22,11 +22,11 @@
 			<footer class="entry__footer">
 				<?php if ( $tags = $single->terms( 'category' ) ) : ?>
 					<div class="entry__terms">
-						Tagged:
+						Filed under:
 
 						<?php foreach ( $tags as $tag ) : ?>
-							<a class="entry__term-anchor" href="<?= e( $tag->uri() ) ?>">
-								#<?= e( $tag->name() ) ?>
+							<a class="entry__term-anchor" href="<?= e( $tag->url() ) ?>">
+								<?= e( $tag->name() ) ?>
 							</a>
 						<?php endforeach ?>
 					</div>

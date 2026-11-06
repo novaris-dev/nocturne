@@ -15,5 +15,4 @@ return [
 	'fira-sans',
 	'jetbrains-mono',
 	'merriweather',
-	'tangerine',
 ];
