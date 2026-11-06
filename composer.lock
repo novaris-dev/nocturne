@@ -2008,16 +2008,16 @@
         },
         {
             "name": "techkodeninja/chassis",
-            "version": "0.0.3",
+            "version": "0.0.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/techkodeninja/chassis.git",
-                "reference": "49844743de1fc9e4f36ca7f41b6f02459e90b5e9"
+                "reference": "dd4dd60fbf033331bbc8f7edd8311b0681ae8f63"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/techkodeninja/chassis/zipball/49844743de1fc9e4f36ca7f41b6f02459e90b5e9",
-                "reference": "49844743de1fc9e4f36ca7f41b6f02459e90b5e9",
+                "url": "https://api.github.com/repos/techkodeninja/chassis/zipball/dd4dd60fbf033331bbc8f7edd8311b0681ae8f63",
+                "reference": "dd4dd60fbf033331bbc8f7edd8311b0681ae8f63",
                 "shasum": ""
             },
             "require": {
@@ -2056,9 +2056,9 @@
             ],
             "support": {
                 "issues": "https://github.com/techkodeninja/chassis/issues",
-                "source": "https://github.com/techkodeninja/chassis/tree/0.0.3"
+                "source": "https://github.com/techkodeninja/chassis/tree/0.0.4"
             },
-            "time": "2026-11-06T16:42:48+00:00"
+            "time": "2026-11-06T17:17:37+00:00"
         },
         {
             "name": "vlucas/phpdotenv",

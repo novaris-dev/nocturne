@@ -46,5 +46,8 @@
 	"width": {
 		"wide": "75rem",
 		"sidebar": "20rem"
+	},
+	"menu": {
+		"toggle": "top-right"
 	}
 }
