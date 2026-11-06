@@ -4,6 +4,6 @@
 		</div>
 	</footer>
 </div>
-<?= app( 'chassis' )->scripts() ?>
+<?= app( 'chassis' ) ? app( 'chassis' )->scripts() : '' ?>
 </body>
 </html>
