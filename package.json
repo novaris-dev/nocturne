@@ -1,29 +1,20 @@
-    {
-        "name": "nocturne",
-        "description": "Nocturne is a theme for the Novaris Content Management System.",
-        "version": "0.0.1",
-        "author": "Benjamin Lu",
-        "license": "GPL-2.0-or-later",
-        "homepage": "https://github.com/novaris-dev/nocturne",
-        "main": "resources/scss/screen.scss",
-        "repository": {
-            "type": "git",
-            "url": "git+https://github.com/novaris-dev/nocturne.git"
-        },
-        "bugs": {
-            "url": "https://github.com/novaris-dev/nocturne/issues"
-        },
-        "devDependencies": {
-            "concurrently": "^10.0.5",
-            "sass": "^1.93.3",
-            "vite": "^7.2.1"
-        },
-        "scripts": {
-            "build": "npm run prod && npm run export",
-            "dev": "vite build --minify=false && concurrently \"npm:watch:vite\" \"npm:watch:novaris\"",
-            "watch:vite": "vite build --watch --minify=false",
-            "watch:novaris": "composer novaris export -- --watch --url=https://nocturne.codestacks.cc",
-            "prod": "vite build",
-            "export": "node export-theme.js"
-        }
-    } 
+{
+    "name": "nocturne",
+    "description": "Nocturne is a theme for the Novaris Content Management System.",
+    "version": "0.0.1",
+    "author": "Benjamin Lu",
+    "license": "GPL-2.0-or-later",
+    "homepage": "https://github.com/novaris-dev/nocturne",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/novaris-dev/nocturne.git"
+    },
+    "bugs": {
+        "url": "https://github.com/novaris-dev/nocturne/issues"
+    },
+    "scripts": {
+        "build": "node export-theme.js",
+        "dev": "composer novaris export -- --watch --url=https://nocturne.codestacks.cc",
+        "export": "node export-theme.js"
+    }
+}

@@ -1,12 +1,10 @@
 /**
- * Theme Export Script (Vite)
+ * Theme Export Script
  *
  * Copies only the files/folders you specify into an export directory.
- * Run your Vite build first so /public contains the optimized assets + manifest.
  *
  * Usage:
  *   npm run build
- *   node export-theme.js
  */
 
 const fs = require('fs');
@@ -19,19 +17,18 @@ const exportPath = 'nocturne'; // folder to export into
 // root-level files to include
 const files = [
   'theme.json',
+  'chassis.json',
 ]; 
 
 // folders to include
 const folders = [
   'app',
   'config',
-  'public/assets',
   'resources',
 ];
 
-// items to delete after copy (same cleanup as your old script, adjusted for Vite)
+// items to delete after copy
 const removeAfterCopy = [
-  // Keep Vite's public/manifest.json on purpose.
   path.join(exportPath, 'vendor/bin'),
   path.join(exportPath, 'vendor/composer/installers'),
 ];
