@@ -14,13 +14,13 @@
     },
     "require": {
         "php": ">=8.2",
-        "luthemes/ui": "dev-main",
-        "novaris-dev/framework": "^1.0"
+        "novaris-dev/framework": "^1.0",
+        "techkodeninja/chassis": "dev-main"
     },
     "repositories": [
         {
             "type": "vcs",
-            "url": "https://github.com/luthemes/ui"
+            "url": "https://github.com/techkodeninja/chassis"
         }
     ],
     "scripts": {

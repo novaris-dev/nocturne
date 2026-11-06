@@ -1,7 +1,7 @@
 ////
 /// Primary Screen Stylesheet
 ///
-/// Loads luthemes/ui with Nocturne's settings, then Nocturne's own styles. The
+/// Loads Chassis with Nocturne's settings, then Nocturne's own styles. The
 /// package has to load first so its settings are configured before anything
 /// else reads them.
 ///
@@ -9,7 +9,7 @@
 /// @author Benjamin Lu
 ////
 
-@use 'luthemes/ui/scss' with (
+@use 'techkodeninja/chassis/scss' with (
 	$colors: (
 		text:        #d7dae0,
 		heading:     #ffffff,
@@ -20,6 +20,7 @@
 		surface:     #161a23,
 		surface-alt: #1c2130,
 		rule:        #2d3446,
+		border:      #2d3446,
 		primary:     #7c9cff,
 		on-primary:  #0b0d12,
 		header:      #0b0d12,

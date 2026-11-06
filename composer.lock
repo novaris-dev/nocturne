@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "a002a20a92bf9813ab58fc2386f1cc69",
+    "content-hash": "dafd3992abab353c6b6ffdefa0b9cdc0",
     "packages": [
         {
             "name": "dflydev/dot-access-data",
@@ -806,60 +806,6 @@
                 }
             ],
             "time": "2022-12-11T20:36:23+00:00"
-        },
-        {
-            "name": "luthemes/ui",
-            "version": "dev-main",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/luthemes/ui.git",
-                "reference": "035a83f5f1171719511a630a6b8c945de95e0ec9"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/luthemes/ui/zipball/035a83f5f1171719511a630a6b8c945de95e0ec9",
-                "reference": "035a83f5f1171719511a630a6b8c945de95e0ec9",
-                "shasum": ""
-            },
-            "require": {
-                "php": ">=7.4"
-            },
-            "suggest": {
-                "backdrop-dev/framework": "Use Luthemes\\UI\\Providers\\Backdrop in ClassicPress themes.",
-                "novaris-dev/framework": "Use Luthemes\\UI\\Providers\\Novaris in Novaris sites."
-            },
-            "default-branch": true,
-            "type": "library",
-            "autoload": {
-                "psr-4": {
-                    "Luthemes\\UI\\": "src/"
-                }
-            },
-            "license": [
-                "GPL-2.0-or-later"
-            ],
-            "authors": [
-                {
-                    "name": "Benjamin Lu",
-                    "email": "benlumia007@gmail.com",
-                    "homepage": "https://luthemes.com"
-                }
-            ],
-            "description": "Shared styles and UI building blocks for Luthemes projects: SCSS tokens, layout objects, and components, with service providers for Backdrop (ClassicPress) and Novaris.",
-            "homepage": "https://github.com/luthemes/ui",
-            "keywords": [
-                "backdrop",
-                "classicpress",
-                "css",
-                "novaris",
-                "scss",
-                "ui"
-            ],
-            "support": {
-                "source": "https://github.com/luthemes/ui/tree/main",
-                "issues": "https://github.com/luthemes/ui/issues"
-            },
-            "time": "2026-11-05T23:52:44+00:00"
         },
         {
             "name": "nette/schema",
@@ -2061,6 +2007,60 @@
             "time": "2026-11-04T07:42:47+00:00"
         },
         {
+            "name": "techkodeninja/chassis",
+            "version": "dev-main",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/techkodeninja/chassis.git",
+                "reference": "13f410cc76651076f0612c5f62e95e2f2aadf5ae"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/techkodeninja/chassis/zipball/13f410cc76651076f0612c5f62e95e2f2aadf5ae",
+                "reference": "13f410cc76651076f0612c5f62e95e2f2aadf5ae",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=7.4"
+            },
+            "suggest": {
+                "backdrop-dev/framework": "Use Techkodeninja\\Chassis\\Providers\\Backdrop in ClassicPress themes.",
+                "novaris-dev/framework": "Use Techkodeninja\\Chassis\\Providers\\Novaris in Novaris sites."
+            },
+            "default-branch": true,
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Techkodeninja\\Chassis\\": "src/"
+                }
+            },
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "Benjamin Lu",
+                    "email": "benlumia007@gmail.com",
+                    "homepage": "https://luthemes.com"
+                }
+            ],
+            "description": "Shared structure and UI building blocks for themes: SCSS tokens, layout objects, and components, with service providers for Backdrop (ClassicPress) and Novaris.",
+            "homepage": "https://github.com/techkodeninja/chassis",
+            "keywords": [
+                "scss",
+                "css",
+                "ui",
+                "classicpress",
+                "backdrop",
+                "novaris"
+            ],
+            "support": {
+                "issues": "https://github.com/techkodeninja/chassis/issues",
+                "source": "https://github.com/techkodeninja/chassis/tree/main"
+            },
+            "time": "2026-11-05T23:59:22+00:00"
+        },
+        {
             "name": "vlucas/phpdotenv",
             "version": "v5.8.0",
             "source": {
@@ -2149,7 +2149,7 @@
     "aliases": [],
     "minimum-stability": "dev",
     "stability-flags": {
-        "luthemes/ui": 20
+        "techkodeninja/chassis": 20
     },
     "prefer-stable": true,
     "prefer-lowest": false,
