@@ -20,7 +20,8 @@
     "repositories": [
         {
             "type": "vcs",
-            "url": "https://github.com/techkodeninja/chassis"
+            "url": "https://github.com/techkodeninja/chassis",
+            "no-api": true
         }
     ],
     "scripts": {
