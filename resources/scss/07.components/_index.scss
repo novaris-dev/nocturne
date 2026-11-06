@@ -1,79 +1,10 @@
 ////
 /// Components
 ///
-/// Nocturne's own styles. Layout, navigation, and shared components come from
-/// Chassis. To use its tools here, add this at the top of a partial:
-///
-///   @use 'techkodeninja/chassis/scss/02.tools' as ui;
+/// Nocturne's own styles. Shared components come from Chassis.
 ///
 /// @group Components
 ////
-@use 'techkodeninja/chassis/scss/02.tools' as ui;
 
-.app-header__inner {
-	padding-bottom: var( --space-s );
-	padding-top: var( --space-s );
-	padding-left: var( --space-l );
-	padding-right: var( --space-l );
-}
-
-.app-nav__menu a {
-	padding-bottom: var( --space-xs );
-	padding-top: var( --space-xs );
-}
-
-.widget {
-	margin-bottom: var( --space-l );
-	padding: var( --space-l );
-
-	ul {
-		list-style: none;
-		margin: 0;
-		padding: 0;
-	}
-}
-
-@include ui.down( medium ) {
-	.app-nav__toggle {
-		background: var( --color-header-background );
-		border: 0;
-		bottom: var( --space-l );
-		color: var( --color-header-text );
-		left: var( --space-l );
-		padding: var( --space-s ) var( --space-l );
-		position: fixed;
-		z-index: 101;
-	}
-
-	.app-nav__menu {
-		bottom: 3.5rem;
-		left: var( --space-l );
-		position: fixed;
-		right: var( --space-l );
-		top: auto;
-	}
-}
-
-.app-main > article {
-	background: var( --color-content-background );
-	border: var( --border-box );
-	border-bottom: var( --border-box-bottom );
-	border-radius: var( --radius );
-	box-shadow: var( --shadow );
-	margin-bottom: var( --space-l );
-	padding: var( --space-l );
-
-	.entry__content > :last-child {
-		margin-bottom: 0;
-	}
-}
-
-.app-content--sidebar-right,
-.app-content--sidebar-left {
-	gap: var( --space-l );
-}
-
-.app-content {
-    padding-bottom: var(--space-l);
-    padding-top: var(--space-l);
-}
+@forward '01.navigation';
+@forward '02.entries';
