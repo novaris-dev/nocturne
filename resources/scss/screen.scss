@@ -1,50 +1,52 @@
 ////
 /// Primary Screen Stylesheet
 ///
-/// Loads Chassis with Nocturne's settings, then Nocturne's own styles. The
-/// package has to load first so its settings are configured before anything
-/// else reads them.
+/// Nocturne's design. Chassis itself loads from its service provider in
+/// `config/app.php`, before this file, so these values replace its defaults.
 ///
 /// @group Styles
 /// @author Benjamin Lu
 ////
 
-@use 'techkodeninja/chassis/scss' with (
-	$colors: (
-		// Global
-		page-background: #0f1117,  // behind everything
-		link:            #9db4ff,  // links
-		link-hover:      #c7d4ff,  // links on hover
-		accent:          #7c9cff,  // buttons and badges
-		accent-text:     #0b0d12,  // text on buttons and badges
-
-		// Header
-		header-background: #0b0d12,  // the top bar
-		header-text:       #ffffff,  // site title, tagline, menu links
-
-		// Content
-		content-background: #161a23,  // post box
-		content-border:     #2d3446,  // border around the post box
-		content-heading:    #ffffff,  // post titles, h1 to h6
-		content-text:       #d7dae0,  // paragraphs
-		content-muted:      #9aa3b2,  // captions, quieter text
-		content-divider:    #2d3446,  // lines between things
-		content-alt:        #1c2130,  // muted boxes, code blocks
-
-		// Widget
-		widget-background: #161a23,  // sidebar boxes
-		widget-border:     #2d3446,  // border around sidebar boxes
-		widget-title:      #ffffff,  // "Categories", "Archives"
-		widget-text:       #d7dae0,  // text inside sidebar boxes
-
-		// Footer
-		footer-background: #0b0d12,  // the bottom bar
-		footer-text:       #ffffff,  // footer text and links
-	),
-	$font-family-body:    ( 'Merriweather', serif ),
-	$font-family-heading: ( 'Fira Sans', sans-serif ),
-	$font-family-code:    ( 'JetBrains Mono', monospace ),
-	$widths: ( wide: 75rem, sidebar: 20rem ),
-);
-
 @forward '07.components';
+
+:root {
+	// Global
+	--color-page-background: #0f1117;  // behind everything
+	--color-link:            #9db4ff;  // links
+	--color-link-hover:      #c7d4ff;  // links on hover
+	--color-accent:          #7c9cff;  // buttons and badges
+	--color-accent-text:     #0b0d12;  // text on buttons and badges
+
+	// Header
+	--color-header-background: #0b0d12;  // the top bar
+	--color-header-text:       #ffffff;  // site title, tagline, menu links
+
+	// Content
+	--color-content-background: #161a23;  // post box
+	--color-content-border:     #2d3446;  // border around the post box
+	--color-content-heading:    #ffffff;  // post titles, h1 to h6
+	--color-content-text:       #d7dae0;  // paragraphs
+	--color-content-muted:      #9aa3b2;  // captions, quieter text
+	--color-content-divider:    #2d3446;  // lines between things
+	--color-content-alt:        #1c2130;  // muted boxes, code blocks
+
+	// Widget
+	--color-widget-background: #161a23;  // sidebar boxes
+	--color-widget-border:     #2d3446;  // border around sidebar boxes
+	--color-widget-title:      #ffffff;  // "Categories", "Archives"
+	--color-widget-text:       #d7dae0;  // text inside sidebar boxes
+
+	// Footer
+	--color-footer-background: #0b0d12;  // the bottom bar
+	--color-footer-text:       #ffffff;  // footer text and links
+
+	// Fonts
+	--font-family-body:    'Merriweather', serif;
+	--font-family-heading: 'Fira Sans', sans-serif;
+	--font-family-code:    'JetBrains Mono', monospace;
+
+	// Widths
+	--width-wide:    75rem;
+	--width-sidebar: 20rem;
+}

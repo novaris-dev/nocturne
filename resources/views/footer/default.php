@@ -4,6 +4,6 @@
 		</div>
 	</footer>
 </div>
-<script type="module" src="<?= e( asset( 'resources/js/app.js' ) ) ?>"></script>
+<?= app( 'chassis' )->scripts() ?>
 </body>
 </html>
