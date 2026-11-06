@@ -48,6 +48,11 @@
 		"sidebar": "20rem"
 	},
 	"menu": {
-		"toggle": "top-right"
+		"toggle": "bottom-left",
+		"design": {
+			"text": "#ffffff",
+			"border": "var( --border-width ) solid #ffffff",
+			"padding": "5px 10px"
+		}
 	}
 }
