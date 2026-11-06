@@ -11,27 +11,40 @@
 
 @use 'techkodeninja/chassis/scss' with (
 	$colors: (
-		text:        #d7dae0,
-		heading:     #ffffff,
-		muted:       #9aa3b2,
-		link:        #9db4ff,
-		link-hover:  #c7d4ff,
-		background:  #0f1117,
-		surface:     #161a23,
-		surface-alt: #1c2130,
-		rule:        #2d3446,
-		border:      #2d3446,
-		primary:     #7c9cff,
-		on-primary:  #0b0d12,
-		header:      #0b0d12,
-		on-header:   #ffffff,
-		footer:      #0b0d12,
-		on-footer:   #ffffff,
+		// Global
+		page-background: #0f1117,  // behind everything
+		link:            #9db4ff,  // links
+		link-hover:      #c7d4ff,  // links on hover
+		accent:          #7c9cff,  // buttons and badges
+		accent-text:     #0b0d12,  // text on buttons and badges
+
+		// Header
+		header-background: #0b0d12,  // the top bar
+		header-text:       #ffffff,  // site title, tagline, menu links
+
+		// Content
+		content-background: #161a23,  // post box
+		content-border:     #2d3446,  // border around the post box
+		content-heading:    #ffffff,  // post titles, h1 to h6
+		content-text:       #d7dae0,  // paragraphs
+		content-muted:      #9aa3b2,  // captions, quieter text
+		content-divider:    #2d3446,  // lines between things
+		content-alt:        #1c2130,  // muted boxes, code blocks
+
+		// Widget
+		widget-background: #161a23,  // sidebar boxes
+		widget-border:     #2d3446,  // border around sidebar boxes
+		widget-title:      #ffffff,  // "Categories", "Archives"
+		widget-text:       #d7dae0,  // text inside sidebar boxes
+
+		// Footer
+		footer-background: #0b0d12,  // the bottom bar
+		footer-text:       #ffffff,  // footer text and links
 	),
 	$font-family-body:    ( 'Merriweather', serif ),
 	$font-family-heading: ( 'Fira Sans', sans-serif ),
 	$font-family-code:    ( 'JetBrains Mono', monospace ),
-	  $widths: ( wide: 75rem, sidebar: 20rem ),
+	$widths: ( wide: 75rem, sidebar: 20rem ),
 );
 
 @forward '07.components';
