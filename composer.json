@@ -15,15 +15,8 @@
     "require": {
         "php": ">=8.2",
         "novaris-dev/framework": "^1.0",
-        "techkodeninja/chassis": "dev-develop"
+        "techkodeninja/chassis": "~0.0.1"
     },
-    "repositories": [
-        {
-            "type": "vcs",
-            "url": "https://github.com/techkodeninja/chassis",
-            "no-api": true
-        }
-    ],
     "scripts": {
         "novaris": "php vendor/novaris-dev/framework/src/bin/novaris"
     },

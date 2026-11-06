@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "46edc881874f76867e33cb3d117fa677",
+    "content-hash": "f23f7f6cd863d15d5125077812110604",
     "packages": [
         {
             "name": "dflydev/dot-access-data",
@@ -2008,16 +2008,16 @@
         },
         {
             "name": "techkodeninja/chassis",
-            "version": "dev-develop",
+            "version": "0.0.1",
             "source": {
                 "type": "git",
-                "url": "https://github.com/techkodeninja/chassis",
-                "reference": "b9083f1a84cb616890f581a2cdf0506a44f64d04"
+                "url": "https://github.com/techkodeninja/chassis.git",
+                "reference": "c3c0b282e77ab8f95778feb2ebed479a6eed3cdc"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/techkodeninja/chassis/zipball/b9083f1a84cb616890f581a2cdf0506a44f64d04",
-                "reference": "b9083f1a84cb616890f581a2cdf0506a44f64d04",
+                "url": "https://api.github.com/repos/techkodeninja/chassis/zipball/c3c0b282e77ab8f95778feb2ebed479a6eed3cdc",
+                "reference": "c3c0b282e77ab8f95778feb2ebed479a6eed3cdc",
                 "shasum": ""
             },
             "require": {
@@ -2027,13 +2027,13 @@
                 "backdrop-dev/framework": "Use Techkodeninja\\Chassis\\Providers\\Backdrop in ClassicPress themes.",
                 "novaris-dev/framework": "Use Techkodeninja\\Chassis\\Providers\\Novaris in Novaris sites."
             },
-            "default-branch": true,
             "type": "library",
             "autoload": {
                 "psr-4": {
                     "Techkodeninja\\Chassis\\": "src/"
                 }
             },
+            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "GPL-2.0-or-later"
             ],
@@ -2054,7 +2054,10 @@
                 "scss",
                 "ui"
             ],
-            "time": "2026-11-06T05:45:52+00:00"
+            "time": "2026-11-06T06:18:05+00:00",
+            "support": {
+                "source": "https://github.com/techkodeninja/chassis/tree/0.0.1"
+            }
         },
         {
             "name": "vlucas/phpdotenv",
@@ -2144,9 +2147,7 @@
     "packages-dev": [],
     "aliases": [],
     "minimum-stability": "dev",
-    "stability-flags": {
-        "techkodeninja/chassis": 20
-    },
+    "stability-flags": {},
     "prefer-stable": true,
     "prefer-lowest": false,
     "platform": {
