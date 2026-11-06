@@ -8,3 +8,48 @@
 ///
 /// @group Components
 ////
+@use 'luthemes/ui/scss/02.tools' as ui;
+
+.app-header__inner {
+	padding-bottom: var( --space-s );
+	padding-top: var( --space-s );
+	padding-left: var( --space-l );
+	padding-right: var( --space-l );
+}
+
+.app-nav__menu a {
+	padding-bottom: var( --space-xs );
+	padding-top: var( --space-xs );
+}
+
+.widget {
+	margin-bottom: var( --space-l );
+	padding: var( --space-l );
+
+	ul {
+		list-style: none;
+		margin: 0;
+		padding: 0;
+	}
+}
+
+@include ui.down( medium ) {
+	.app-nav__toggle {
+		background: var( --color-header );
+		border: 0;
+		bottom: var( --space-l );
+		color: var( --color-on-header );
+		left: var( --space-l );
+		padding: var( --space-s ) var( --space-l );
+		position: fixed;
+		z-index: 101;
+	}
+
+	.app-nav__menu {
+		bottom: 3.5rem;
+		left: var( --space-l );
+		position: fixed;
+		right: var( --space-l );
+		top: auto;
+	}
+}

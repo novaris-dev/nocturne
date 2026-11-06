@@ -813,12 +813,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/luthemes/ui.git",
-                "reference": "52880c249060258e469bc30937b4f90c44effb2f"
+                "reference": "035a83f5f1171719511a630a6b8c945de95e0ec9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/luthemes/ui/zipball/52880c249060258e469bc30937b4f90c44effb2f",
-                "reference": "52880c249060258e469bc30937b4f90c44effb2f",
+                "url": "https://api.github.com/repos/luthemes/ui/zipball/035a83f5f1171719511a630a6b8c945de95e0ec9",
+                "reference": "035a83f5f1171719511a630a6b8c945de95e0ec9",
                 "shasum": ""
             },
             "require": {
@@ -856,10 +856,10 @@
                 "ui"
             ],
             "support": {
-                "issues": "https://github.com/luthemes/ui/issues",
-                "source": "https://github.com/luthemes/ui/tree/main"
+                "source": "https://github.com/luthemes/ui/tree/main",
+                "issues": "https://github.com/luthemes/ui/issues"
             },
-            "time": "2026-11-03T03:32:53+00:00"
+            "time": "2026-11-05T23:52:44+00:00"
         },
         {
             "name": "nette/schema",
