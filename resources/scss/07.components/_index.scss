@@ -53,3 +53,22 @@
 		top: auto;
 	}
 }
+
+.app-main > article {
+	background: var( --color-surface );
+	border: var( --border-box );
+	border-bottom: var( --border-box-bottom );
+	border-radius: var( --radius );
+	box-shadow: var( --shadow );
+	margin-bottom: var( --space-l );
+	padding: var( --space-l );
+
+	.entry__content > :last-child {
+		margin-bottom: 0;
+	}
+}
+
+.app-content--sidebar-right,
+.app-content--sidebar-left {
+	gap: var( --space-l );
+}

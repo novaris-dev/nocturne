@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "51d674f0799073f9cef2163b599b8111",
+    "content-hash": "46edc881874f76867e33cb3d117fa677",
     "packages": [
         {
             "name": "dflydev/dot-access-data",
@@ -2008,16 +2008,16 @@
         },
         {
             "name": "techkodeninja/chassis",
-            "version": "dev-main",
+            "version": "dev-develop",
             "source": {
                 "type": "git",
                 "url": "https://github.com/techkodeninja/chassis",
-                "reference": "43bfbe55db4ad87e803fefed86b7920035fb5ca8"
+                "reference": "1165cba177578f6630c8c8a97f3ec4c5a22a175f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/techkodeninja/chassis/zipball/43bfbe55db4ad87e803fefed86b7920035fb5ca8",
-                "reference": "43bfbe55db4ad87e803fefed86b7920035fb5ca8",
+                "url": "https://api.github.com/repos/techkodeninja/chassis/zipball/1165cba177578f6630c8c8a97f3ec4c5a22a175f",
+                "reference": "1165cba177578f6630c8c8a97f3ec4c5a22a175f",
                 "shasum": ""
             },
             "require": {
@@ -2054,7 +2054,7 @@
                 "scss",
                 "ui"
             ],
-            "time": "2026-11-06T00:17:58+00:00"
+            "time": "2026-11-06T01:30:16+00:00"
         },
         {
             "name": "vlucas/phpdotenv",
