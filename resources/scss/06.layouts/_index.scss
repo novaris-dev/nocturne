@@ -1,0 +1,24 @@
+////
+/// Layouts
+///
+/// Nocturne's changes to the page skeleton from Chassis.
+///
+/// @group Layouts
+////
+
+.app-header__inner {
+	padding-bottom: var( --space-s );
+	padding-top: var( --space-s );
+	padding-left: var( --space-l );
+	padding-right: var( --space-l );
+}
+
+.app-content {
+	padding-bottom: var( --space-l );
+	padding-top: var( --space-l );
+}
+
+.app-content--sidebar-right,
+.app-content--sidebar-left {
+	gap: var( --space-l );
+}

@@ -1,0 +1,21 @@
+////
+/// Entries
+///
+/// The box around posts and pages, which matches the sidebar widgets.
+///
+/// @group Components
+////
+
+.app-main > article {
+	background: var( --color-content-background );
+	border: var( --border-box );
+	border-bottom: var( --border-box-bottom );
+	border-radius: var( --radius );
+	box-shadow: var( --shadow );
+	margin-bottom: var( --space-l );
+	padding: var( --space-l );
+
+	.entry__content > :last-child {
+		margin-bottom: 0;
+	}
+}

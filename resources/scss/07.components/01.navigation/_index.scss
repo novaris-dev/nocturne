@@ -1,0 +1,36 @@
+////
+/// Navigation
+///
+/// The primary menu. On phones, the Menu button sits at the bottom left and the
+/// menu opens above it.
+///
+/// @group Components
+////
+
+@use 'techkodeninja/chassis/scss/02.tools' as ui;
+
+.app-nav__menu a {
+	padding-bottom: var( --space-xs );
+	padding-top: var( --space-xs );
+}
+
+@include ui.down( medium ) {
+	.app-nav__toggle {
+		background: var( --color-header-background );
+		border: 0;
+		bottom: var( --space-l );
+		color: var( --color-header-text );
+		left: var( --space-l );
+		padding: var( --space-s ) var( --space-l );
+		position: fixed;
+		z-index: 101;
+	}
+
+	.app-nav__menu {
+		bottom: 3.5rem;
+		left: var( --space-l );
+		position: fixed;
+		right: var( --space-l );
+		top: auto;
+	}
+}
