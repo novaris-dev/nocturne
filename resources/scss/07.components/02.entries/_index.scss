@@ -1,7 +1,7 @@
 ////
 /// Entries
 ///
-/// The box around posts and pages, which matches the sidebar widgets.
+/// Posts and pages. The box around each one matches the sidebar widgets.
 ///
 /// @group Components
 ////
@@ -15,7 +15,57 @@
 	margin-bottom: var( --space-l );
 	padding: var( --space-l );
 
+	&:last-child {
+		margin-bottom: 0;
+	}
+
 	.entry__content > :last-child {
 		margin-bottom: 0;
 	}
+}
+
+.entry__header {
+	margin-bottom: var( --space-m );
+}
+
+.entry__metadata {
+	color: var( --color-content-muted );
+	font-size: 0.875rem;
+}
+
+.entry__title {
+	margin-bottom: 0;
+}
+
+.entry__title-anchor {
+	color: inherit;
+	text-decoration: none;
+
+	&:hover,
+	&:focus {
+		color: var( --color-link-hover );
+	}
+}
+
+.entry__thumbnail {
+	display: block;
+	margin-bottom: var( --space-l );
+
+	img {
+		display: block;
+		height: auto;
+		width: 100%;
+	}
+}
+
+.entry__more-link {
+	white-space: nowrap;
+}
+
+.entry__terms {
+	border-top: var( --border-rule );
+	color: var( --color-content-muted );
+	font-size: 0.875rem;
+	margin-top: var( --space-l );
+	padding-top: var( --space-m );
 }

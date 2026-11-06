@@ -15,7 +15,7 @@
 }
 
 @include ui.down( medium ) {
-	.app-nav__toggle {
+	.app-nav .menu-toggle {
 		background: var( --color-header-background );
 		border: 0;
 		bottom: var( --space-l );
