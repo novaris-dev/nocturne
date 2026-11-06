@@ -46,6 +46,9 @@ return [
 		'Blog' => '/blog',
 		'About' => '/about',
     ],
+	'social' => [
+	'GitHub' => 'https://github.com/techkodeninja',
+],
 
 	// Register service providers.
 	'providers' => [
