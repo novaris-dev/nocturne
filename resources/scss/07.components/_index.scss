@@ -35,10 +35,10 @@
 
 @include ui.down( medium ) {
 	.app-nav__toggle {
-		background: var( --color-header );
+		background: var( --color-header-background );
 		border: 0;
 		bottom: var( --space-l );
-		color: var( --color-on-header );
+		color: var( --color-header-text );
 		left: var( --space-l );
 		padding: var( --space-s ) var( --space-l );
 		position: fixed;
@@ -55,7 +55,7 @@
 }
 
 .app-main > article {
-	background: var( --color-surface );
+	background: var( --color-content-background );
 	border: var( --border-box );
 	border-bottom: var( --border-box-bottom );
 	border-radius: var( --radius );
