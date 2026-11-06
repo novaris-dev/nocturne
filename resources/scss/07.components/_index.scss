@@ -72,3 +72,8 @@
 .app-content--sidebar-left {
 	gap: var( --space-l );
 }
+
+.app-content {
+    padding-bottom: var(--space-l);
+    padding-top: var(--space-l);
+}
