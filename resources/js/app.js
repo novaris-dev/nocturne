@@ -1,3 +1,3 @@
-import { appNav } from '../../vendor/luthemes/ui/js/app-nav.js';
+import { appNav } from '../../vendor/techkodeninja/chassis/js/app-nav.js';
 
 appNav();
