@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "f23f7f6cd863d15d5125077812110604",
+    "content-hash": "ce06ea89e64c0d8d92309d2f7a0915f5",
     "packages": [
         {
             "name": "dflydev/dot-access-data",
@@ -2008,16 +2008,16 @@
         },
         {
             "name": "techkodeninja/chassis",
-            "version": "0.0.8",
+            "version": "0.1.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/techkodeninja/chassis.git",
-                "reference": "81e548751c15c7a33ae90e356b280672b3dda2fa"
+                "reference": "3960a11d2a3fbabd174154ce70f76f94ce1a93e1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/techkodeninja/chassis/zipball/81e548751c15c7a33ae90e356b280672b3dda2fa",
-                "reference": "81e548751c15c7a33ae90e356b280672b3dda2fa",
+                "url": "https://api.github.com/repos/techkodeninja/chassis/zipball/3960a11d2a3fbabd174154ce70f76f94ce1a93e1",
+                "reference": "3960a11d2a3fbabd174154ce70f76f94ce1a93e1",
                 "shasum": ""
             },
             "require": {
@@ -2056,9 +2056,9 @@
             ],
             "support": {
                 "issues": "https://github.com/techkodeninja/chassis/issues",
-                "source": "https://github.com/techkodeninja/chassis/tree/0.0.8"
+                "source": "https://github.com/techkodeninja/chassis/tree/0.1.0"
             },
-            "time": "2026-11-06T18:28:39+00:00"
+            "time": "2026-11-06T20:27:45+00:00"
         },
         {
             "name": "vlucas/phpdotenv",
