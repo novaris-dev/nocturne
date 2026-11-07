@@ -15,7 +15,7 @@
     "require": {
         "php": ">=8.2",
         "novaris-dev/framework": "^1.0",
-        "techkodeninja/chassis": "~0.0.1"
+        "techkodeninja/chassis": "^0.1"
     },
     "scripts": {
         "novaris": "php vendor/novaris-dev/framework/src/bin/novaris"
